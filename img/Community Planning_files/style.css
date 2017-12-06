@@ -1,0 +1,60 @@
+/*Global Styles*/
+body {
+  position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    letter-spacing: 0.075em;
+}
+
+h6 {
+  font-weight: lighter;
+  font-size: 0.5rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.row {
+  margin-bottom: 0%;
+}
+
+.foot {
+  background-color:#232b2b;
+  color:#fff;
+  border-top: 10px solid #ccc;
+  padding-top:3%;
+  padding-bottom: 3%;
+  margin-top:5%;
+}
+
+/*more specific styling*/
+.banner {
+  width: 120%;
+  height:120%;
+}
+.foot p{
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.col-md-4, .col-md-2,{
+  padding-left: 0px;
+}
+
+.col-md-6 {
+  padding-left: 0px;
+}
+
+/*Nav Link*/
+.nav-link-alt {
+  color: #ddd;
+  font-size: 0.8em;
+}
+
+.nav-link-alt:hover {
+  color: #666;
+  padding-left: -5px;
+  font-size: 0.9em;
+  -webkit-animation-timing-function: ease;
+  text-decoration: none;
+}
